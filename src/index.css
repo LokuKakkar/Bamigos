@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Buzinga";   /*Can be any text*/
+    src: local("Buzinga"),
+      url("./fonts/Buzinga-Regular.otf") format("otf");
+  }

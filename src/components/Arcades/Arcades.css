@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'BuzingaFont';
+    src: url('../../fonts/Bazinga-Regular.woff') format('woff'),
+         url('../../fonts/Bazinga-Regular.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
+  }
+
+
+.arcadeShowOff{
+    padding-top: 40px;
+    height: 100vh;
+}
+
+
+.card{
+    min-width: 100px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    margin: 10px;
+    padding: 10px;
+    /* padding-right: 20px; */
+    margin-bottom: 60px;
+}
+
+.card_media{
+    margin: 6px;
+    margin-right: 10px;
+    width: 160px;
+}
+
+
+
+.card:hover{
+    opacity: 0.6;
+}
+
+/* .arcadeNameFont{
+    font-family: 'BuzingaFont', sans-serif;
+} */
+
+
+.arcadeNameFont{
+    font-family: 'BuzingaFont', sans-serif;
+    
+}
+
+h2 .arcadeNameFont{
+    font-family: 'BuzingaFont', sans-serif;
+    
+}
